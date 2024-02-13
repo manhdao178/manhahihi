@@ -1,39 +1,39 @@
-$('.tombol').click(function() {
+$('.tombol').click(function () {
     // animate content
     $('.halaman').addClass('animate_content');
     $('.dalemnya_halaman').fadeOut(100).delay(2800).fadeIn();
 
-    setTimeout(function() {
+    setTimeout(function () {
         $('.halaman').removeClass('animate_content');
     }, 3200);
 
     //remove fadeIn class after 1500ms
-    setTimeout(function() {
+    setTimeout(function () {
         $('.halaman').removeClass('fadeIn');
     }, 1100);
 
 });
 
 
-$('.tombol2').click(function() {
+$('.tombol2').click(function () {
     // animate content
     $('.halaman').addClass('animate_content');
     $('.dalemnya_halaman').fadeOut(100).delay(2800).fadeIn();
 
-    setTimeout(function() {
+    setTimeout(function () {
         $('.halaman').removeClass('animate_content');
     }, 3200);
 
     //remove fadeIn class after 1500ms
-    setTimeout(function() {
+    setTimeout(function () {
         $('.halaman').removeClass('fadeIn');
     }, 1100);
 
 });
 
 
-$('.kehome').click(function() {
-    setTimeout(function() {
+$('.kehome').click(function () {
+    setTimeout(function () {
         $('.home').addClass('fadeIn');
     }, 1100);
 
@@ -41,8 +41,8 @@ $('.kehome').click(function() {
 });
 
 
-$('.kehalaman2').click(function() {
-    setTimeout(function() {
+$('.kehalaman2').click(function () {
+    setTimeout(function () {
         $('.halaman2').addClass('fadeIn');
     }, 1100);
 
@@ -52,8 +52,8 @@ $('.kehalaman2').click(function() {
 });
 
 var i = 0;
-var txt = "Ribuan malam ku termenung sendiri, Menunggu seseorang untuk memelukku, Lewati ratusan mimpi tersimpan dalam sanubari, Sendiri di tengah kegelapan yang semu. Terimakasih engkau telah hadir untukku,\nmenemani kesepianku dan telah menjadi penerang dalam gelapku,  I Love You";
-var speed = 200;
+var txt = "Ngày Valentine vui vẻ nhó, tớ muốn nói là ... ... thôi không viết ở đây đâu 🙆🙆🙆. Tận hưởng trọn vẹn mấy ngày nghỉ nữa nha! Nhưng mà t muốn gặp cậu quá 😂😂😂 ";
+var speed = 160;
 
 function JalaninTeks() {
     if (i < txt.length) {
